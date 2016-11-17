@@ -1,0 +1,36 @@
+{
+  "name": "react-tutorial",
+  "version": "0.0.1",
+  "description": "This is a simple react tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "run-site",
+    "start": "webpack-dev-server --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USM-ACM/reactTut.git"
+  },
+  "author": "Quintin Donnelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/USM-ACM/reactTut/issues"
+  },
+  "homepage": "https://github.com/USM-ACM/reactTut/#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "react-hot-loader": "^3.0.0-beta.3",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0"
+  }
+}
